@@ -1,0 +1,6 @@
+Pet name: El Cid, El Conquistador
+Pet type: Cat
+Fur colour: Blue
+Likes: Chasing mice, having cuddles
+Dislikes: Hairy people, loud people, parties
+Hobbies: Sleeping
