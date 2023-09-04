@@ -1,0 +1,46 @@
+## Git exercises
+
+Congratulations on succesfully cloning this repository! Here are a few tasks to help you get to grips with Git:
+
+### Updating .gitignore
+
+1. There's a folder of diary entries in this repository that shouldn't be here. Can you update the `.gitignore` file to ignore all the files in the 'diary entries' folder?
+	* You might need to read the [gitignore documentation](https://git-scm.com/docs/gitignore)
+	* You'll be able to edit `.gitignore` by opening it with Notepad, RStudio, or another text editor.
+2. Now that you've updated git ignore, add the edited file to the staging area with `git add .gitignore`
+3. Commit your staged file with `commit -m "your-commit-description-here"`
+4. Let's make sure our update to .gitignore has worked:
+	* Create a new text file in 'diary entries' and write a line or two of text into it. 
+	* Save your new textfile
+	* Use `git add .` to add all edited files to the staging area
+	* Use `git status` to see which files have been added to the current commit. There should be none!
+	* Try making a commit. What happens?
+
+### Editing an existing file
+
+I've added a description for my Cat, whose name is Cid, but I've made a mistake and said that her hair is blue!
+
+1. Open the file and change Cid's hair colour to 'black/brown'
+2. Save the file
+3. Use `git diff` to see the untracked change you have just made
+3. Use `git status`. What is git telling you?
+4. Add 'el-cid_pet-description.txt' to the staging area
+5. Use 'git status' again. What's changed.
+6. What argument could you pass to `git diff` to see the differences between the staging area and the most recent commit?
+7. Add the staged change to a new commit
+
+
+### Adding a new file
+
+Create a pet-description of your own. Commit the addition of the file
+
+### Pushing changes
+
+Right now the changes you've made have only affected your machine. We still need to push them to the remote repository on GitHub:
+
+1. `git status` to make sure there are no untracked or uncommited changes
+2. Stage & commit any changes that need to be staged or commited
+3. `git pull` (Git will almost definitely tell you that your branch is up to date)
+4. `git push`
+
+That's it! You're using Git like a pro1
