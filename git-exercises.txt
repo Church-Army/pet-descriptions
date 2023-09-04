@@ -2,6 +2,11 @@
 
 Congratulations on succesfully cloning this repository! Here are a few tasks to help you get to grips with Git:
 
+### Checking out the repository
+
+1. Try `git log`. What are you looking at?
+2. Try `git log --oneline`
+
 ### Updating .gitignore
 
 1. There's a folder of diary entries in this repository that shouldn't be here. Can you update the `.gitignore` file to ignore all the files in the 'diary entries' folder?
@@ -40,7 +45,7 @@ Right now the changes you've made have only affected your machine. We still need
 
 1. `git status` to make sure there are no untracked or uncommited changes
 2. Stage & commit any changes that need to be staged or commited
-3. `git pull` (Git will almost definitely tell you that your branch is up to date)
+3. `git pull` (Git will almost definitely tell you that your branch is already up to date)
 4. `git push`
 
 That's it! You're using Git like a pro1
